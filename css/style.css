@@ -22,6 +22,9 @@ text-transform: uppercase;
 .logo-studio{
     color: var(--IRIS, #2e2f42);
 }
+.adress{
+    font-size: normal;
+}
 .page-nav{
     color: var(#2E2F42);
 font-size: 16px;
@@ -43,14 +46,18 @@ letter-spacing: 1.12px;
 width: 1440px;
 background: var(--NAVY-BLUE, #2E2F42); 
 }
+
 .button{
     isplay: inline-flex;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px; 
-    order-radius: 4px;
+border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
+}
+.button:hover, .button:focus{
+    background-color: #404bbf;
 }
 .img{
     border-radius: 0px 0px 4px 4px;
@@ -80,6 +87,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px; 
+}
+.heder-contact:hover, .heder-contact:focus{
+    color: #404bbf;
 }
 .descrip-title{
     color: var(--SLATE, #434455);
