@@ -219,3 +219,16 @@ font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em; 
 }
+.section-three{
+    background-color: #FFFFFF;
+}
+.text-h-section{
+    color: var(--NAVY-BLUE, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em; 
+}
