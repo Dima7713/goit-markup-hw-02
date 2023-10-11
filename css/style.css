@@ -78,6 +78,9 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px; 
 }
+.header-ac:hover, header-ac:focus{
+    color: #404bbf; 
+}
 .header-contact{
     color: var(--SLATE, #434455);
 /* Body */
@@ -88,9 +91,7 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px; 
 }
-.heder-contact:hover, .heder-contact:focus{
-    color: #404bbf;
-}
+
 .descrip-title{
     color: var(--SLATE, #434455);
     /* Body */
@@ -123,4 +124,7 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px; 
 background: var(--NAVY-BLUE, #2E2F42); 
+}
+.section-two{
+    background: var(--CLOUD, #F4F4FD); 
 }
