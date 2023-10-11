@@ -48,7 +48,13 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .button{
-    isplay: inline-flex;
+    color: #ffffff ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    display: inline-flex;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px; 
@@ -127,4 +133,11 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
 .section-two{
     background: var(--CLOUD, #F4F4FD); 
+}
+h3{
+    display: flex;
+width: 264px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px; 
 }
