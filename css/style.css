@@ -47,7 +47,6 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px; /* 107.143% */
 letter-spacing: 1.12px; 
-width: 1440px;
 background: var(--NAVY-BLUE, #2E2F42); 
 }
 
@@ -59,21 +58,14 @@ background: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
-padding: 16px 32px;
-align-items: flex-start;
-gap: 10px; 
-border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
 }
 .button:hover, .button:focus{
     background-color: #404bbf;
 }
 .img{
-    border-radius: 0px 0px 4px 4px;
+
 background: var(--WHITE, #FFF);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); 
 }
 .img-down{
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -144,11 +136,6 @@ letter-spacing: 0.32px;
     background-color: #F4F4FD ; 
 }
 h3{
-    display: flex;
-width: 264px;
-flex-direction: column;
-align-items: flex-start;
-gap: 8px; 
 }
 .text-h{
     color: var(--NAVY-BLUE, #2E2F42);
