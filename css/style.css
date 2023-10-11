@@ -115,7 +115,7 @@ letter-spacing: 0.32px;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em; 
 }
-h2{
+.text-our-team{
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 /* Header 2 */
@@ -123,7 +123,7 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px; /* 111.111% */
+line-height: 1.11; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize; 
 }
@@ -207,5 +207,15 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
+letter-spacing: 0.02em; 
+}
+.text-p-our-team{
+    color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
 letter-spacing: 0.02em; 
 }
