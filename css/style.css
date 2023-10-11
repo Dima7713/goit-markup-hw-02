@@ -172,21 +172,21 @@ letter-spacing: 0.32px;
 }
 .logo-f{
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+font-family: "Raleway";
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
+line-height: 1.17; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase; 
 }
 .logo-studiof{
     color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+font-family: "Raleway";
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
+line-height: 1.17; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase; 
 }
